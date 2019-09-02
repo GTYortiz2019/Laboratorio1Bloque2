@@ -11,11 +11,11 @@ public class main {
         condicional.Multiplicacion(2, 8);
         condicional.Division(10, 2);
         condicional.Raiz(9);
-        condicional.cuadratica(5,8,3);
-        /*condicional.maximo();
-        condicional.and();
-        condicional.or();
-        condicional.not();*/
+        condicional.cuadratica(5, 8, 3);
+        condicional.maxima(8, 9, 3);
+        condicional.and(5,9,9);
+        condicional.or(2);
+        /*condicional.not();*/
 
     }
 }
