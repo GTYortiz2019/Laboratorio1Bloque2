@@ -90,13 +90,13 @@ public class Ciclos {
         }
     }
     
-    public void and(int n1, int n2, int n3) {
+    public void and(int n1, int n2) {
         this.num1 = n1;
         this.num2 = n2;
-        this.num3 = n3;
+        
         if ((n1 ==10) && (n2 ==5)) {
 
-            System.out.println("Numeros correctos: " + n1);
+            System.out.println("Numeros correctos");
         } 
         else{
             System.out.println("Numeros incorrectos");
@@ -105,18 +105,13 @@ public class Ciclos {
     
     public void or(int n1){
     this.num1=n1;
-    do{
-        System.out.println("entro al do "+num3);
-        num3++;  
-    }
-    while((n1==1)||(n1==4));
-    }
     
-    /*public void not(int n1){
-    this.num1=n1;
-    if(!n1==3){
-        System.out.println("El numero no es 3 ");
+    if((n1==1)||(n1==4)){
+        System.out.println("Se Ingreso un de los 2 numeros correctos");
     }
-    }*/
-    
+    else{
+        System.out.println("No Ingreso al Verificador");
+    }
+  
+}
 }
