@@ -29,7 +29,7 @@ public class main {
         op = var.nextInt();
         switch (op) {
             case 1:
-                condicional.Igual(4, 5);
+                condicional.Igual(4, 6);
                 break;
             case 2:
                 condicional.Mayor(5, 6);
